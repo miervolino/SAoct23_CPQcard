@@ -1,0 +1,22 @@
+{
+  "name": "The best CPQ ever!",
+  "description": "CPQ app to generate quotes",
+  "uid": "hs_cpq_card",
+  "scopes": [
+    "crm.objects.deals.read",
+    "crm.objects.deals.write",
+    "e-commerce",
+    "crm.objects.quotes.read",
+    "crm.objects.quotes.write"
+  ],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/best-cpq-ever.json"
+        }
+      ]
+    }
+  }
+}
