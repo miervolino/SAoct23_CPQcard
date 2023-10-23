@@ -1,0 +1,12 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Best CPQ ever!",
+    "uid": "hs_cpq_card",
+    "location": "crm.record.tab",
+    "module": {
+      "file": "HubSpotQuotes.jsx"
+    },
+    "objectTypes": [{ "name": "deals" }]
+  }
+}
