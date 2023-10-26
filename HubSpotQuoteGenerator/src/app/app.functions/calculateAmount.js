@@ -20,7 +20,7 @@ function calculateAmount(dealId, amount) {
 
 // Entry function of this module
 exports.main = (context = {}, callback) => {
-  console.log("Beginning of async");
+  //console.log("Beginning of async");
 
   const { hs_object_id } = context.propertiesToSend;
   const amount = context.parameters.amount;

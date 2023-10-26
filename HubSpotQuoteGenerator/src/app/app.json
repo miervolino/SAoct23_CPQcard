@@ -1,7 +1,7 @@
 {
-  "name": "The best CPQ ever!",
-  "description": "CPQ app to generate quotes",
-  "uid": "hs_cpq_card",
+  "name": "HubSpot Quote Generator",
+  "description": "CPQ app to generate quotes with HubSpot products",
+  "uid": "hubspot_quote_generator",
   "scopes": [
     "crm.objects.deals.read",
     "crm.objects.deals.write",
@@ -14,7 +14,7 @@
     "crm": {
       "cards": [
         {
-          "file": "extensions/best-cpq-ever.json"
+          "file": "extensions/hubspot-quotes.json"
         }
       ]
     }

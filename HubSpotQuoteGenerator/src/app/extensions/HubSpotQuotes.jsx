@@ -117,7 +117,11 @@ const HubSpotQuotes = ({ runServerless }) => {
             />
           )}
           {step === Steps.Addons && (
-            <Addons onNext={updateAmount} />
+            <Addons 
+            onNext={updateAmount}
+            onBack={() => setStep(Steps.Details) }
+            productsSelection={[mhSelection, shSelection, svhSelection]}
+            />
           )}
         </Flex>
       )}

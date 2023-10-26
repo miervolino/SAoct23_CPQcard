@@ -1,0 +1,12 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "HubSpot Quote Generator",
+    "uid": "hubspot_quote_generator",
+    "location": "crm.record.tab",
+    "module": {
+      "file": "HubSpotQuotes.jsx"
+    },
+    "objectTypes": [{ "name": "deals" }]
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "best-cpq-ever",
+  "name": "hubspot-quote-generator",
   "version": "0.1.0",
   "scripts": {
     "postinstall": "cd ./src/app/extensions/ && npm install && cd ../app.functions && npm install"
